@@ -1,0 +1,17 @@
+<img id="qrcode" width="150" height="150" /><br>
+<button id="backbutton" onclick="back()">Back</button>
+<script>
+    function back() {
+        window.close();
+    }
+    if (!window.opener) {
+        backbutton.hidden = true;
+    }
+
+    var options = {
+        favorites: localStorage.getItem("favorites"),
+        defaultFilters: localStorage.getItem("defaultFilters")
+    }
+    var dataString = JSON.stringify(options);
+    qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${dataString}`;
+</script>
