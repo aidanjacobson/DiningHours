@@ -340,4 +340,5 @@ function clearDefault() {
 }
 if (location.hash == "#importsuccess") {
     importSuccess.innerText = "Successfully imported your data."
+    location.hash = "";
 }
