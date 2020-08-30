@@ -126,3 +126,7 @@ function doFavoriteUpdate() {
     }
     localStorage.setItem("favorites", JSON.stringify(favoriteIndex));
 }
+
+if (!windows.opener) {
+    backbutton.hidden = true;
+}
