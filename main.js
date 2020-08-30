@@ -303,8 +303,10 @@ var searchResults = document.getElementById("searchResults");
 function populateResults(results) {
     searchResults.innerHTML = "";
     var list = document.createElement("ul");
-    var favoriteResults = results.filter(loc=>favoriteIndex.indexOf(loc.index) > -1);
-    var unfavoriteResults = results.filter(loc=>favoriteIndex.indexOf(loc.index) == -1);
+
+    var openResults = results.filter(loc=>isOpen(loc, new Date().getDay(), new Date().getHours(), new Date().getMinutes()));
+    var unopenResults = results.filter(loc=>!isOpen(loc, new Date().getDay(), new Date().getHours(), new Date().getMinutes()));
+
     results = favoriteResults.concat(unfavoriteResults);
     for (var i = 0; i < results.length; i++) {
         var item = document.createElement("li");
