@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Search - Tempe Dining Hours</title>
+        <script defer src="main.js"></script>
+    </head>
+    <body>
+        <h1>Tempe Dining Hours</h1>
+        <span>Place:
+        <select id="primaryFilter"></select>
+        <select id="secondaryFilter"></select></span><br>
+        <span>Show: <select id="favSelect">
+            <option value="all">All</option>
+            <option value="fav">Favorites</option>
+        </select></span><br>
+        <span>Date filter: <select id="dateFilter">
+            <option value="none">Any Day</option>
+            <option value="now">Today</option>
+            <option value="onDay">On Day</option>
+        </select><input id="onDayDate" type="date" /></span><br>
+        <span>Time Filter: <select id="timeFilter">
+            <option value="none">Any Time</option>
+            <option value="now">Now</option>
+            <option value="onTime">At Time</option>
+        </select><input id="atTimeSelect" type="time" /></span><br>
+        Presets: <button onclick="preset('default')">Default</button><button onclick="preset('openNow')">Open now</button><button onclick="preset('favorites')">Favorites</button><button onclick="preset('all')">All</button>
+        <br><br>
+        <button onclick="filter()">Apply Filters</button><button onclick="setDefaultSearch()">Set current filter as default</button><button id="clearButton" onclick="clearDefault()" disabled>Clear Default Filter</button>
+        <hr>
+        <h2>Search Results</h2>
+        <div id="searchResults">
+            No searches have been made. To start one, select some options and click "Apply Filters", or click a preset. If you set a default filter, it will appear here automatically in the future.
+        </div>
+    </body>
+</html>

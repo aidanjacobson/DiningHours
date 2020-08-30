@@ -1,0 +1,550 @@
+{
+    "locations": [
+        {
+            "category": "Memorial Union",
+            "subcategory": "Main Level",
+            "name": "Chick-Fil-A",
+            "hours": [
+                ["closed"],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Main Level",
+            "name": "Bento Sushi & Noodles",
+            "hours": [
+                ["closed"],
+                [10, 0, 17, 0],
+                [10, 0, 17, 0],
+                [10, 0, 17, 0],
+                [10, 0, 17, 0],
+                [10, 0, 14, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Main Level",
+            "name": "Starbucks @ MU",
+            "hours": [
+                [10, 0, 19, 0],
+                [6, 30, 20, 0],
+                [6, 30, 20, 0],
+                [6, 30, 20, 0],
+                [6, 30, 20, 0],
+                [6, 30, 20, 0],
+                [8, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Main Level",
+            "name": "Rosie's Bakery",
+            "hours": [
+                ["closed"],
+                [10, 0, 16, 0],
+                [10, 0, 16, 0],
+                [10, 0, 16, 0],
+                [10, 0, 16, 0],
+                [10, 0, 16, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Food Court",
+            "name": "Qdoba Mexican Grill",
+            "hours": [
+                [10, 0, 19, 0],
+                [8, 0, 20, 0],
+                [8, 0, 20, 0],
+                [8, 0, 20, 0],
+                [8, 0, 20, 0],
+                [8, 0, 20, 0],
+                [10, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Food Court",
+            "name": "Pei Wei",
+            "hours": [
+                ["closed"],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 15, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Food Court",
+            "name": "Einstein Bros. Bagels",
+            "hours": [
+                ["closed"],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [8, 0, 14, 0]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Food Court",
+            "name": "Oath Pizza",
+            "hours": [
+                ["closed"],
+                [10, 0, 18, 0],
+                [10, 0, 18, 0],
+                [10, 0, 18, 0],
+                [10, 0, 18, 0],
+                [10, 0, 15, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Lower Level",
+            "name": "Burger King",
+            "hours": [
+                [10, 0, 14, 0],
+                [9, 0, 19, 0],
+                [9, 0, 19, 0],
+                [9, 0, 19, 0],
+                [9, 0, 19, 0],
+                [9, 0, 19, 0],
+                [10, 0, 16, 0]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Lower Level",
+            "name": "Subway",
+            "hours": [
+                [10, 0, 16, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [10, 0, 16, 0]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "Lower Level",
+            "name": "Jamba Juice",
+            "hours": [
+                ["closed"],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Memorial Union",
+            "subcategory": "2nd Level",
+            "name": "Engrained",
+            "hours": [
+                ["closed"],
+                [11, 0, 15, 0],
+                [11, 0, 15, 0],
+                [11, 0, 15, 0],
+                [11, 0, 15, 0],
+                [11, 0, 15, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Specialty Coffee",
+            "subcategory": "",
+            "name": "Starbucks @ WP Carey",
+            "hours": [
+                ["closed"],
+                [6, 30, 19, 0],
+                [6, 30, 19, 0],
+                [6, 30, 19, 0],
+                [6, 30, 19, 0],
+                [6, 30, 18, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Specialty Coffee",
+            "subcategory": "",
+            "name": "Starbucks @ Palo Verde",
+            "hours": [
+                [10, 0, 19, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 19, 0],
+                [10, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Specialty Coffee",
+            "subcategory": "",
+            "name": "Burning B Cafe",
+            "hours": [
+                [11, 0, 17, 0],
+                [8, 0, 19, 0],
+                [8, 0, 19, 0],
+                [8, 0, 19, 0],
+                [8, 0, 19, 0],
+                [8, 0, 17, 0],
+                [11, 0, 17, 0]
+            ]
+        },
+        {
+            "category": "Specialty Coffee",
+            "subcategory": "",
+            "name": "Starbucks @ Noble Library",
+            "hours": [
+                ["closed"],
+                [8, 0, 20, 0],
+                [8, 0, 20, 0],
+                [8, 0, 20, 0],
+                [8, 0, 20, 0],
+                [8, 0, 18, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Specialty Coffee",
+            "subcategory": "",
+            "name": "Charlie's Coffee @ Hayden",
+            "hours": [
+                ["closed"],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Specialty Coffee",
+            "subcategory": "",
+            "name": "Charlie's Coffee @ Bio",
+            "hours": [
+                ["closed"],
+                [7, 0, 16, 0],
+                [7, 0, 16, 0],
+                [7, 0, 16, 0],
+                [7, 0, 16, 0],
+                [7, 0, 16, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Specialty Coffee",
+            "subcategory": "",
+            "name": "Charlie's Coffee @ Design",
+            "hours": [
+                ["closed"],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                [7, 0, 15, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Dining Halls",
+            "subcategory": "",
+            "name": "Hassayampa Dining Center",
+            "hours": [
+                [11, 0, 19, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 19, 0],
+                [11, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Dining Halls",
+            "subcategory": "",
+            "name": "Pitchforks Restaurant",
+            "hours": [
+                [11, 0, 19, 0],
+                [7, 0, 19, 0],
+                [7, 0, 19, 0],
+                [7, 0, 19, 0],
+                [7, 0, 19, 0],
+                [7, 0, 19, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Dining Halls",
+            "subcategory": "",
+            "name": "Barrett Dining Center",
+            "hours": [
+                [11, 0, 19, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 19, 0],
+                [11, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Dining Halls",
+            "subcategory": "",
+            "name": "Manzanita",
+            "hours": [
+                [11, 0, 19, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 19, 0],
+                [11, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Dining Halls",
+            "subcategory": "",
+            "name": "Tooker House Dining",
+            "hours": [
+                [11, 0, 19, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 19, 0],
+                [11, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Convenience Stores",
+            "subcategory": "",
+            "name": "Tooker House POD",
+            "hours": [
+                [10, 0, 24, 0],
+                [9, 0, 24, 0],
+                [9, 0, 24, 0],
+                [9, 0, 24, 0],
+                [9, 0, 24, 0],
+                [9, 0, 24, 0],
+                [10, 0, 24, 0]
+            ]
+        },
+        {
+            "category": "Convenience Stores",
+            "subcategory": "",
+            "name": "Tooker House POD Grill",
+            "hours": [
+                [20, 0, 24, 0],
+                [20, 0, 24, 0],
+                [20, 0, 24, 0],
+                [20, 0, 24, 0],
+                [20, 0, 24, 0],
+                [20, 0, 24, 0],
+                [20, 0, 24, 0]
+            ]
+        },
+        {
+            "category": "Convenience Stores",
+            "subcategory": "",
+            "name": "Hayden Micro Market",
+            "hours": [
+                [0, 0, 24, 0],
+                [0, 0, 24, 0],
+                [0, 0, 24, 0],
+                [0, 0, 24, 0],
+                [0, 0, 24, 0],
+                [0, 0, 24, 0],
+                [0, 0, 24, 0]
+            ]
+        },
+        {
+            "category": "Convenience Stores",
+            "subcategory": "",
+            "name": "Tooker House POD",
+            "hours": [
+                [10, 0, 24, 0],
+                [9, 0, 24, 0],
+                [9, 0, 24, 0],
+                [9, 0, 24, 0],
+                [9, 0, 24, 0],
+                [9, 0, 24, 0],
+                [10, 0, 24, 0]
+            ]
+        },
+        {
+            "category": "Convenience Stores",
+            "subcategory": "",
+            "name": "M.U. Pod Market",
+            "hours": [
+                [11, 0, 19, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [7, 0, 20, 0],
+                [10, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Convenience Stores",
+            "subcategory": "",
+            "name": "Greek Village POD Market",
+            "hours": [
+                [10, 0, 22, 0],
+                [9, 0, 22, 0],
+                [9, 0, 22, 0],
+                [9, 0, 22, 0],
+                [9, 0, 22, 0],
+                [9, 0, 22, 0],
+                [10, 0, 22, 0]
+            ]
+        },
+        {
+            "category": "Casual Restaurants",
+            "subcategory": "",
+            "name": "Subway @ Hassayampa",
+            "hours": [
+                [11, 0, 19, 0],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [10, 0, 20, 0],
+                [11, 0, 19, 0]
+            ]
+        },
+        {
+            "category": "Casual Restaurants",
+            "subcategory": "",
+            "name": "Einstein's Express @ Armstrong Hall",
+            "hours": [
+                ["closed"],
+                [7, 0, 17, 0],
+                [7, 0, 17, 0],
+                [7, 0, 17, 0],
+                [7, 0, 17, 0],
+                [7, 0, 15, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Casual Restaurants",
+            "subcategory": "",
+            "name": "Shake Smart",
+            "hours": [
+                [10, 0, 20, 0],
+                [7, 0, 21, 0],
+                [7, 0, 21, 0],
+                [7, 0, 21, 0],
+                [7, 0, 21, 0],
+                [7, 0, 21, 0],
+                [10, 0, 20, 0]
+            ]
+        },
+        {
+            "category": "Casual Restaurants",
+            "subcategory": "",
+            "name": "Bhodi Marker @ Hayden Library",
+            "hours": [
+                ["closed"],
+                [9, 0, 18, 0],
+                [9, 0, 18, 0],
+                [9, 0, 18, 0],
+                [9, 0, 18, 0],
+                [9, 0, 18, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Casual Restaurants",
+            "subcategory": "",
+            "name": "Chick In",
+            "hours": [
+                ["closed"],
+                [10, 0, 18, 0],
+                [10, 0, 18, 0],
+                [10, 0, 18, 0],
+                [10, 0, 18, 0],
+                [11, 0, 14, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Casual Restaurants",
+            "subcategory": "",
+            "name": "The Crepe Club",
+            "hours": [
+                ["closed"],
+                [18, 0, 18, 0],
+                [18, 0, 18, 0],
+                [18, 0, 18, 0],
+                [18, 0, 18, 0],
+                [18, 0, 15, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Casual Restaurants",
+            "subcategory": "",
+            "name": "The Crepe Club North",
+            "hours": [
+                ["closed"],
+                [18, 0, 18, 0],
+                [18, 0, 18, 0],
+                [18, 0, 18, 0],
+                [18, 0, 18, 0],
+                [18, 0, 15, 0],
+                ["closed"]
+            ]
+        },
+        {
+            "category": "Casual Restaurants",
+            "subcategory": "",
+            "name": "Domino's Pizza",
+            "hours": [
+                [10, 0, 26, 0],
+                [10, 0, 26, 0],
+                [10, 0, 26, 0],
+                [10, 0, 26, 0],
+                [10, 0, 26, 0],
+                [10, 0, 26, 0],
+                [10, 0, 26, 0]
+            ]
+        },
+        {
+            "category": "Casual Restaurants",
+            "subcategory": "",
+            "name": "Doner Dudes",
+            "hours": [
+                [11, 0, 25, 0],
+                [11, 0, 25, 0],
+                [11, 0, 25, 0],
+                [11, 0, 25, 0],
+                [11, 0, 25, 0],
+                [11, 0, 25, 0],
+                [11, 0, 25, 0]
+            ]
+        }
+    ]
+}
