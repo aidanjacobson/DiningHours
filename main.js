@@ -284,7 +284,7 @@ function isOpen(loc, day, setHours, setMinutes) {
     return isWithinTimeframe(...args);
 }
 
-function setDefaultSearch() { // TODO
+function setDefaultSearch() {
     var options = {
         primaryFilter: primaryFilter.selectedIndex,
         secondaryFilter: secondaryFilter.selectedIndex,
@@ -303,6 +303,9 @@ var searchResults = document.getElementById("searchResults");
 function populateResults(results) {
     searchResults.innerHTML = "";
     var list = document.createElement("ul");
+    var favoriteResults = results.filter(loc=>favoriteIndex.indexOf(loc.index) > -1);
+    var unfavoriteResults = results.filter(loc=>favoriteIndex.indexOf(loc.index) == -1);
+    results = favoriteResults.concat(unfavoriteResults);
     for (var i = 0; i < results.length; i++) {
         var item = document.createElement("li");
         item.innerHTML = `<b>${results[i].name}</b>`;
