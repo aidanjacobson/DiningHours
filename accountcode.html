@@ -1,4 +1,4 @@
-<img id="qrcode" width="150" height="150" /><br>
+<img id="qrcode" width="300" height="300" /><br>
 <button id="backbutton" onclick="back()">Back</button>
 <script>
     function back() {
@@ -13,5 +13,5 @@
         defaultFilters: localStorage.getItem("defaultFilters")
     }
     var dataString = btoa(JSON.stringify(options));
-    qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${escape(`https://aidanjacobson.github.io/DiningHours/import.html#${dataString}`)}`;
+    qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${escape(`https://aidanjacobson.github.io/DiningHours/import.html#${dataString}`)}`;
 </script>
