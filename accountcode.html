@@ -12,6 +12,6 @@
         favorites: localStorage.getItem("favorites"),
         defaultFilters: localStorage.getItem("defaultFilters")
     }
-    var dataString = JSON.stringify(options);
-    qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${dataString}`;
+    var dataString = btoa(JSON.stringify(options));
+    qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://aidanjacobson.github.io/DiningHours/import.html#${dataString}`;
 </script>
