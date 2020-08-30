@@ -307,7 +307,7 @@ function populateResults(results) {
     var openResults = results.filter(loc=>isOpen(loc, new Date().getDay(), new Date().getHours(), new Date().getMinutes()));
     var unopenResults = results.filter(loc=>!isOpen(loc, new Date().getDay(), new Date().getHours(), new Date().getMinutes()));
 
-    results = favoriteResults.concat(unfavoriteResults);
+    results = openResults.concat(unopenResults);
     for (var i = 0; i < results.length; i++) {
         var item = document.createElement("li");
         item.innerHTML = `<b>${results[i].name}</b>`;
