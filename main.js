@@ -338,3 +338,6 @@ function clearDefault() {
     localStorage.removeItem('defaultFilters');
     clearButton.setAttribute("disabled", "disabled");
 }
+if (location.hash == "#importsuccess") {
+    importSuccess.innerText = "Successfully imported your data."
+}
