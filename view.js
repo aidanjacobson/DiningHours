@@ -127,6 +127,6 @@ function doFavoriteUpdate() {
     localStorage.setItem("favorites", JSON.stringify(favoriteIndex));
 }
 
-if (!windows.opener) {
+if (!window.opener) {
     backbutton.hidden = true;
 }
