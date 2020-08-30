@@ -1,4 +1,7 @@
 <img id="qrcode" width="300" height="300" /><br>
+<p>Save this QR Code or scan it with anoter device to import data to that device.</p>
+<p>Alternatively, copy <a id="dllink">this link</a> and open on another device.</p>
+<br>
 <button id="backbutton" onclick="back()">Back</button>
 <script>
     function back() {
@@ -14,4 +17,5 @@
     }
     var dataString = btoa(JSON.stringify(options));
     qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${escape(`https://aidanjacobson.github.io/DiningHours/import.html#${dataString}`)}`;
+    dllink.href = `https://aidanjacobson.github.io/DiningHours/import.html#${dataString}`;
 </script>
