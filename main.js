@@ -300,14 +300,14 @@ function setDefaultSearch() {
 
 var searchResults = document.getElementById("searchResults");
 
-function populateResults(results) {
+function populateResults(tmpresults) {
     searchResults.innerHTML = "";
     var list = document.createElement("ul");
 
-    var openResults = results.filter(loc=>isOpen(loc, new Date().getDay(), new Date().getHours(), new Date().getMinutes()));
-    var unopenResults = results.filter(loc=>!isOpen(loc, new Date().getDay(), new Date().getHours(), new Date().getMinutes()));
+    var openResults = tmpresults.filter(loc=>isOpen(loc, new Date().getDay(), new Date().getHours(), new Date().getMinutes()));
+    var unopenResults = tmpresults.filter(loc=>!isOpen(loc, new Date().getDay(), new Date().getHours(), new Date().getMinutes()));
 
-    results = openResults.concat(unopenResults);
+    var results = openResults.concat(unopenResults);
     for (var i = 0; i < results.length; i++) {
         var item = document.createElement("li");
         item.innerHTML = `<b>${results[i].name}</b>`;
