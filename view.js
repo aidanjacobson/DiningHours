@@ -37,6 +37,9 @@ function doDisplay(current) {
             firstHour = hourSet[0];
             if (firstHour == 0) {
                 firstHour = 12;
+            } else if (firstHour == 12) {
+                FAM = false;
+            }
             } else if (firstHour > 12) {
                 firstHour -= 12;
                 FAM = false;
