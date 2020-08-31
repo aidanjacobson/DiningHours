@@ -39,7 +39,6 @@ function doDisplay(current) {
                 firstHour = 12;
             } else if (firstHour == 12) {
                 FAM = false;
-            }
             } else if (firstHour > 12) {
                 firstHour -= 12;
                 FAM = false;
