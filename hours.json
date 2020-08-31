@@ -1,621 +1,134 @@
-{
-    "locations": [
-        {
-            "category": "Memorial Union",
-            "subcategory": "Main Level",
-            "name": "Chick-Fil-A",
-            "hours": [
-                ["closed"],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Main Level",
-            "name": "Bento Sushi & Noodles",
-            "hours": [
-                ["closed"],
-                [10, 0, 17, 0],
-                [10, 0, 17, 0],
-                [10, 0, 17, 0],
-                [10, 0, 17, 0],
-                [10, 0, 14, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Main Level",
-            "name": "Starbucks @ MU",
-            "hours": [
-                [10, 0, 19, 0],
-                [6, 30, 20, 0],
-                [6, 30, 20, 0],
-                [6, 30, 20, 0],
-                [6, 30, 20, 0],
-                [6, 30, 20, 0],
-                [8, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Main Level",
-            "name": "Rosie's Bakery",
-            "hours": [
-                ["closed"],
-                [10, 0, 16, 0],
-                [10, 0, 16, 0],
-                [10, 0, 16, 0],
-                [10, 0, 16, 0],
-                [10, 0, 16, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Food Court",
-            "name": "Qdoba Mexican Grill",
-            "hours": [
-                [10, 0, 19, 0],
-                [8, 0, 20, 0],
-                [8, 0, 20, 0],
-                [8, 0, 20, 0],
-                [8, 0, 20, 0],
-                [8, 0, 20, 0],
-                [10, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Food Court",
-            "name": "Pei Wei",
-            "hours": [
-                ["closed"],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 15, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Food Court",
-            "name": "Einstein Bros. Bagels",
-            "hours": [
-                ["closed"],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [8, 0, 14, 0]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Food Court",
-            "name": "Oath Pizza",
-            "hours": [
-                ["closed"],
-                [10, 0, 18, 0],
-                [10, 0, 18, 0],
-                [10, 0, 18, 0],
-                [10, 0, 18, 0],
-                [10, 0, 15, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Lower Level",
-            "name": "Burger King",
-            "hours": [
-                [10, 0, 14, 0],
-                [9, 0, 19, 0],
-                [9, 0, 19, 0],
-                [9, 0, 19, 0],
-                [9, 0, 19, 0],
-                [9, 0, 19, 0],
-                [10, 0, 16, 0]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Lower Level",
-            "name": "Subway",
-            "hours": [
-                [10, 0, 16, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [10, 0, 16, 0]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "Lower Level",
-            "name": "Jamba Juice",
-            "hours": [
-                ["closed"],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Memorial Union",
-            "subcategory": "2nd Level",
-            "name": "Engrained",
-            "hours": [
-                ["closed"],
-                [11, 0, 15, 0],
-                [11, 0, 15, 0],
-                [11, 0, 15, 0],
-                [11, 0, 15, 0],
-                [11, 0, 15, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Specialty Coffee",
-            "subcategory": "",
-            "name": "Starbucks @ WP Carey",
-            "hours": [
-                ["closed"],
-                [6, 30, 19, 0],
-                [6, 30, 19, 0],
-                [6, 30, 19, 0],
-                [6, 30, 19, 0],
-                [6, 30, 18, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Specialty Coffee",
-            "subcategory": "",
-            "name": "Starbucks @ Palo Verde",
-            "hours": [
-                [10, 0, 19, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 19, 0],
-                [10, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Specialty Coffee",
-            "subcategory": "",
-            "name": "Burning B Cafe",
-            "hours": [
-                [11, 0, 17, 0],
-                [8, 0, 19, 0],
-                [8, 0, 19, 0],
-                [8, 0, 19, 0],
-                [8, 0, 19, 0],
-                [8, 0, 17, 0],
-                [11, 0, 17, 0]
-            ]
-        },
-        {
-            "category": "Specialty Coffee",
-            "subcategory": "",
-            "name": "Starbucks @ Noble Library",
-            "hours": [
-                ["closed"],
-                [8, 0, 20, 0],
-                [8, 0, 20, 0],
-                [8, 0, 20, 0],
-                [8, 0, 20, 0],
-                [8, 0, 18, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Specialty Coffee",
-            "subcategory": "",
-            "name": "Charlie's Coffee @ Hayden",
-            "hours": [
-                ["closed"],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Specialty Coffee",
-            "subcategory": "",
-            "name": "Charlie's Coffee @ Bio",
-            "hours": [
-                ["closed"],
-                [7, 0, 16, 0],
-                [7, 0, 16, 0],
-                [7, 0, 16, 0],
-                [7, 0, 16, 0],
-                [7, 0, 16, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Specialty Coffee",
-            "subcategory": "",
-            "name": "Charlie's Coffee @ Design",
-            "hours": [
-                ["closed"],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                [7, 0, 15, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Dining Halls",
-            "subcategory": "",
-            "name": "Hassayampa Dining Center",
-            "hours": [
-                [11, 0, 19, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 19, 0],
-                [11, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Dining Halls",
-            "subcategory": "",
-            "name": "Pitchforks Restaurant",
-            "hours": [
-                [11, 0, 19, 0],
-                [7, 0, 19, 0],
-                [7, 0, 19, 0],
-                [7, 0, 19, 0],
-                [7, 0, 19, 0],
-                [7, 0, 19, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Dining Halls",
-            "subcategory": "",
-            "name": "Barrett Dining Center",
-            "hours": [
-                [11, 0, 19, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 19, 0],
-                [11, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Dining Halls",
-            "subcategory": "",
-            "name": "Manzanita",
-            "hours": [
-                [11, 0, 19, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 19, 0],
-                [11, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Dining Halls",
-            "subcategory": "",
-            "name": "Tooker House Dining",
-            "hours": [
-                [11, 0, 19, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 19, 0],
-                [11, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Convenience Stores",
-            "subcategory": "",
-            "name": "Tooker House POD",
-            "hours": [
-                [10, 0, 24, 0],
-                [9, 0, 24, 0],
-                [9, 0, 24, 0],
-                [9, 0, 24, 0],
-                [9, 0, 24, 0],
-                [9, 0, 24, 0],
-                [10, 0, 24, 0]
-            ]
-        },
-        {
-            "category": "Convenience Stores",
-            "subcategory": "",
-            "name": "Tooker House POD Grill",
-            "hours": [
-                [20, 0, 24, 0],
-                [20, 0, 24, 0],
-                [20, 0, 24, 0],
-                [20, 0, 24, 0],
-                [20, 0, 24, 0],
-                [20, 0, 24, 0],
-                [20, 0, 24, 0]
-            ]
-        },
-        {
-            "category": "Convenience Stores",
-            "subcategory": "",
-            "name": "Hayden Micro Market",
-            "hours": [
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0]
-            ]
-        },
-        {
-            "category": "Convenience Stores",
-            "subcategory": "",
-            "name": "M.U. Pod Market",
-            "hours": [
-                [11, 0, 19, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [7, 0, 20, 0],
-                [10, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Convenience Stores",
-            "subcategory": "",
-            "name": "Greek Village POD Market",
-            "hours": [
-                [10, 0, 22, 0],
-                [9, 0, 22, 0],
-                [9, 0, 22, 0],
-                [9, 0, 22, 0],
-                [9, 0, 22, 0],
-                [9, 0, 22, 0],
-                [10, 0, 22, 0]
-            ]
-        },
-        {
-            "category": "Casual Restaurants",
-            "subcategory": "",
-            "name": "Subway @ Hassayampa",
-            "hours": [
-                [11, 0, 19, 0],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [10, 0, 20, 0],
-                [11, 0, 19, 0]
-            ]
-        },
-        {
-            "category": "Casual Restaurants",
-            "subcategory": "",
-            "name": "Einstein's Express @ Armstrong Hall",
-            "hours": [
-                ["closed"],
-                [7, 0, 17, 0],
-                [7, 0, 17, 0],
-                [7, 0, 17, 0],
-                [7, 0, 17, 0],
-                [7, 0, 15, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Casual Restaurants",
-            "subcategory": "",
-            "name": "Shake Smart",
-            "hours": [
-                [10, 0, 20, 0],
-                [7, 0, 21, 0],
-                [7, 0, 21, 0],
-                [7, 0, 21, 0],
-                [7, 0, 21, 0],
-                [7, 0, 21, 0],
-                [10, 0, 20, 0]
-            ]
-        },
-        {
-            "category": "Casual Restaurants",
-            "subcategory": "",
-            "name": "Bhodi Marker @ Hayden Library",
-            "hours": [
-                ["closed"],
-                [9, 0, 18, 0],
-                [9, 0, 18, 0],
-                [9, 0, 18, 0],
-                [9, 0, 18, 0],
-                [9, 0, 18, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Casual Restaurants",
-            "subcategory": "",
-            "name": "Chick In",
-            "hours": [
-                ["closed"],
-                [10, 0, 18, 0],
-                [10, 0, 18, 0],
-                [10, 0, 18, 0],
-                [10, 0, 18, 0],
-                [11, 0, 14, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Casual Restaurants",
-            "subcategory": "",
-            "name": "The Crepe Club",
-            "hours": [
-                ["closed"],
-                [18, 0, 18, 0],
-                [18, 0, 18, 0],
-                [18, 0, 18, 0],
-                [18, 0, 18, 0],
-                [18, 0, 15, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Casual Restaurants",
-            "subcategory": "",
-            "name": "The Crepe Club North",
-            "hours": [
-                ["closed"],
-                [18, 0, 18, 0],
-                [18, 0, 18, 0],
-                [18, 0, 18, 0],
-                [18, 0, 18, 0],
-                [18, 0, 15, 0],
-                ["closed"]
-            ]
-        },
-        {
-            "category": "Casual Restaurants",
-            "subcategory": "",
-            "name": "Domino's Pizza",
-            "hours": [
-                [12, 0, 24, 0],
-                [12, 0, 24, 0],
-                [12, 0, 24, 0],
-                [12, 0, 24, 0],
-                [12, 0, 24, 0],
-                [12, 0, 24, 0],
-                [12, 0, 24, 0]
-            ]
-        },
-        {
-            "category": "Casual Restaurants",
-            "subcategory": "",
-            "name": "Doner Dudes",
-            "hours": [
-                [11, 0, 25, 0],
-                [11, 0, 25, 0],
-                [11, 0, 25, 0],
-                [11, 0, 25, 0],
-                [11, 0, 25, 0],
-                [11, 0, 25, 0],
-                [11, 0, 25, 0]
-            ]
-        },
-        {
-            "category": "Rural and University",
-            "subcategory": "",
-            "name": "Raising Canes",
-            "hours": [
-                [9, 0, 26, 0],
-                [9, 0, 26, 0],
-                [9, 0, 26, 0],
-                [9, 0, 26, 0],
-                [9, 0, 26, 0],
-                [9, 0, 26, 0],
-                [9, 0, 26, 0]
-            ]
-        },
-        {
-            "category": "Rural and University",
-            "subcategory": "",
-            "name": "IHOP",
-            "hours": [
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0]
-            ]
-        },
-        {
-            "category": "Rural and University",
-            "subcategory": "",
-            "name": "Cafe Rio",
-            "hours": [
-                [11, 0, 21, 0],
-                [10, 30, 21, 0],
-                [10, 30, 21, 0],
-                [10, 30, 21, 0],
-                [10, 30, 21, 0],
-                [10, 30, 21, 0],
-                [10, 30, 22, 0]
-            ]
-        },
-        {
-            "category": "Rural and University",
-            "subcategory": "",
-            "name": "Sushi 101",
-            "hours": [
-                [12, 0, 22, 0],
-                [11, 0, 22, 0],
-                [11, 0, 22, 0],
-                [11, 0, 22, 0],
-                [11, 0, 22, 0],
-                [11, 0, 23, 0],
-                [12, 0, 23, 0]
-            ]
-        },
-        {
-            "category": "Broadway Road",
-            "subcategory": "",
-            "name": "Popeyes",
-            "hours": [
-                [10, 0, 22, 0],
-                [9, 30, 22, 0],
-                [9, 30, 22, 0],
-                [9, 30, 22, 0],
-                [9, 30, 22, 0],
-                [9, 30, 22, 0],
-                [10, 0, 23, 0]
-            ]
-        },
-        {
-            "category": "Rural and Apache",
-            "subcategory": "",
-            "name": "McDonald's",
-            "hours": [
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0],
-                [0, 0, 24, 0]
-            ]
+let data = {};
+async function getData() {
+    return await fetch("hours.json").then(response => response.json());
+    
+}
+
+var hash = +window.location.hash.substring(1);
+async function main() {
+    data = await getData();
+    var current = data.locations[hash];
+    doDisplay(current);
+}
+main();
+
+function doDisplay(current) {
+    console.log(current);
+    document.querySelector("title").innerText = `${current.name} - Tempe Dining Hours`;
+    viewing.innerText = current.name;
+    var categoryString = current.category;
+    if (current.subcategory != "") {
+        categoryString += " (" + current.subcategory + ")";
+    }
+    category.innerText = categoryString;
+    var currentDate = new Date();
+    
+    if (isOpen(current, currentDate.getDay(), currentDate.getHours(), currentDate.getMinutes())) {
+        openDisplay.innerText = "Open";
+        openContainer.style.backgroundColor = "green";
+    }
+    for (var i = 0; i < 7; i++) {
+        hourSet = current.hours[i];
+        hourString = "";
+        if (hourSet[0] == "closed") {
+            hourString = "Closed";
+        } else {
+            var FAM = true;
+            firstHour = hourSet[0];
+            if (firstHour == 0) {
+                firstHour = 12;
+            } else if (firstHour == 12) {
+                FAM = false;
+            } else if (firstHour > 12) {
+                firstHour -= 12;
+                FAM = false;
+            }
+            firstMinute = hourSet[1];
+            if (firstMinute.toString().length == 1) {
+                firstMinute = "0" + firstMinute;
+            }
+
+            var LAM = true;
+            lastHour = hourSet[2];
+            if (lastHour >= 24) {
+                lastHour -= 24;
+            }
+            if (lastHour == 0) {
+                lastHour = 12;
+            } else if (lastHour > 12) {
+                lastHour -= 12;
+                LAM = false;
+            }
+            lastMinute = hourSet[3];
+            if (lastMinute.toString().length == 1) {
+                lastMinute = "0" + lastMinute;
+            }
+
+            hourString = `${firstHour}:${firstMinute} ${FAM ? "AM" : "PM"} - ${lastHour}:${lastMinute} ${LAM ? "AM" : "PM"}`;
         }
-        
-    ]
+        if (new Date().getDay() == i) {
+            hourstable.children[0].children[i].children[1].innerHTML = `<b>${hourString}</b>`;
+        } else {
+            hourstable.children[0].children[i].children[1].innerHTML = hourString;
+        }
+    }
+}
+
+
+
+function isWithinTimeframe(searchHour, searchMinute, hourSet) { // copied from main.js
+    if (searchHour < hourSet[0]) {
+        return false;
+    } else if (searchHour == hourSet[0]) {
+        if (searchMinute < hourSet[1]) {
+            return false;
+        }
+    }
+    if (searchHour > hourSet[2]) {
+        return false;
+    } else if (searchHour == hourSet[2]) {
+        if (searchMinute >= hourSet[3]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function isOpen(loc, day, setHours, setMinutes) { // copied from main.js
+    if (loc.hours[day][0] == "closed") {
+        return false;
+    }
+    var args = [setHours, setMinutes, loc.hours[day]];
+    var prevDay = loc.hours[(day+6) % 7];
+    if (prevDay[0] != "closed") {
+        if (prevDay[2] >= 24 && setHours <= prevDay[2]-24) { // late night, next day early morning
+            args = [setHours + 24, setMinutes, prevDay];
+        }
+    }
+    return isWithinTimeframe(...args);
+}
+
+function back() {
+    window.close();
+}
+
+var favoriteCheck = document.getElementById("favoriteCheck");
+var favoriteIndex = JSON.parse(localStorage.getItem("favorites") || "[]");
+localStorage.setItem("favorites", JSON.stringify(favoriteIndex));
+favoriteCheck.checked = favoriteIndex.indexOf(hash) > -1;
+function doFavoriteUpdate() {
+    if (!favoriteCheck.checked) {
+        if (favoriteIndex.indexOf(hash) > -1) {
+            favoriteIndex.splice(favoriteIndex.indexOf(hash), 1);
+        }
+    } else {
+        if (favoriteIndex.indexOf(hash) == -1) {
+            favoriteIndex.push(hash);
+        }
+    }
+    localStorage.setItem("favorites", JSON.stringify(favoriteIndex));
+}
+
+if (!window.opener) {
+    backbutton.hidden = true;
 }
