@@ -59,6 +59,9 @@ function setDateToCurrent() {
         month = "0" + month;
     }
     var day = curDate.getDate();
+    if (day.toString().length == 1) {
+        day = "0" + day;
+    }
     var dateString = `${year}-${month}-${day}`;
     onDayDate.value = dateString;
 }
